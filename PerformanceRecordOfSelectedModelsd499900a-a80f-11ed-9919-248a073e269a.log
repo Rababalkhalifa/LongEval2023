@@ -1,0 +1,17 @@
+Task 2 ##  - INFO - The run id using uuid1() is : d499900a-a80f-11ed-9919-248a073e269a 
+Task 2 ##  - INFO - <Model's discribtion :  Baseline model - Roberta base with distantly labled train, with eval [interim_eval_2016] and distant eval [interim_eval_2018] 
+Task 2 ##  - INFO - Training: train 
+Task 2 ##  - INFO - Training: 49608 samples
+Task 2 ##  - INFO - Training: Sampling Fraction: 1 
+Task 2 ##  - INFO - Eval-within: Checking file interim_eval_2016.json: 1344 samples.
+Task 2 ##  - INFO - Eval-distant: Checking file interim_eval_2018.json: 1344 samples.
+Task 2 ##  - INFO - Loaded dataset info: 49608 training samples, 1344 within evaluation samples, , 1344 distant evaluation samples
+absl - INFO - using Adamw optimizer
+absl - INFO - gradient_clip_norm=1.000000
+Task 2 ##  - INFO - Model's hyperparameters info: BATCH_SIZE 32. DROPOUT RATE 0.1, 25 NB_EPOCHE, adamw optimizer, 2 Number of CLASSES, SparseCategoricalCrossentropy loss function with ealy stopping using loss and 1550 repeating steps per epoche 
+Task 2 ##  - INFO - Model's evaluation f-score for eval_within : 0.7879322229081256  
+Task 2 ##  - INFO - This run is saved as CLEFLongEvalTask2_team2023_d499900a-a80f-11ed-9919-248a073e269a_eval_within_predictions.txt  
+Task 2 ##  - INFO - Model's evaluation f-score for eval_distant : 0.7611224957047076  
+Task 2 ##  - INFO - This run is saved as CLEFLongEvalTask2_team2023_d499900a-a80f-11ed-9919-248a073e269a_eval_distant_predictions.txt  
+Task 2 ##  - INFO - Model's evaluation average f-score: 0.7745273593064166  
+Task 2 ##  - INFO - Model's evaluation RPD: {'eval_distant': -0.03402542303000099}  
